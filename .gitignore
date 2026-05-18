@@ -1,0 +1,32 @@
+# Claude Code user-specific settings
+.claude/
+
+# Auxiliary scripts not shipped with the tutorial corpus
+tools/
+
+# Solver run logs from tutorial execution
+log.*
+*.log
+
+# OS metadata
+Thumbs.db
+.DS_Store
+
+# Editor temp files
+*.swp
+*~
+
+# Python (혹시 tools/ 제외 정책이 바뀌어도 안전망)
+__pycache__/
+*.pyc
+
+# IDE / Editor
+.vscode/
+.idea/
+*.code-workspace
+
+# OpenFOAM run artifacts (예제 코드를 직접 돌린 경우 대비)
+processor*/
+postProcessing/
+dynamicCode/
+*.foam

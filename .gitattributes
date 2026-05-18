@@ -1,0 +1,15 @@
+# Normalize all text files to LF in the repository.
+# Working tree files keep platform-native endings on checkout (handled by the editor).
+* text=auto eol=lf
+
+# Binary assets - never apply line ending or text conversions
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.pdf  binary
+
+# GitHub Linguist: 이 저장소는 코드 저장소가 아니라 한국어 OpenFOAM 튜토리얼 문서이다.
+# 챕터 내 코드 블록이 언어 통계를 왜곡하지 않도록 마크다운만 카운트되게 한다.
+*.md linguist-detectable=true
+*.md linguist-documentation=false
+figures/* linguist-vendored=true
