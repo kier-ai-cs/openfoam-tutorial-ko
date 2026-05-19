@@ -30,3 +30,7 @@ processor*/
 postProcessing/
 dynamicCode/
 *.foam
+
+# PDF builds
+openfoam-tutorial-ko.pdf
+book/

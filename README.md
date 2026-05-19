@@ -5,11 +5,11 @@
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-24.04%20WSL2-E95420?logo=ubuntu&logoColor=white)](https://ubuntu.com/)
 [![Tutorials](https://img.shields.io/badge/%EC%98%88%EC%A0%9C-17%EA%B0%9C-success)](#예제-목록)
 
-OpenFOAM의 주요 기능을 학습하기 위한 한국어 예제집이다. 격자 생성, 다상 유동, 난류, 병렬 처리, 화학 반응, 다물리 해석(전자기·전기화학) 등 OpenFOAM의 폭넓은 응용을 17개의 예제를 통해 다룬다.
+OpenFOAM의 주요 기능을 학습하기 위한 한국어 예제집이다. OpenFOAM의 설치부터 격자 생성, 다상 유동, 난류, 병렬 처리, 화학 반응, 다물리 해석(전자기·전기화학) 등 OpenFOAM의 기본적인 사용법과 응용을 18개 예제를 통해 다룬다.
 
 ## 구성
 
-이 예제집은 Technische Universität Wien, Institute of Chemical, Environmental & Bioscience Engineering의 **OpenFOAM Basic Training, 5th edition (2019)** ([www.cfd.at/tutorials](https://www.cfd.at/tutorials), 예제 1~14)을 한국어로 번역한 자료에, 5개 예제(예제 0, 15, 16, 17)를 추가하여 구성하였다.
+이 예제집은 Technische Universität Wien, Institute of Chemical, Environmental & Bioscience Engineering의 **OpenFOAM Basic Training, 5th edition (2019)** ([www.cfd.at/tutorials](https://www.cfd.at/tutorials), 예제 1~14)을 한국어로 번역한 자료에, 4개 예제(예제 0, 15, 16, 17)를 추가하여 구성하였다.
 
 각 예제는 아래의 구조로 구성된다.
 
